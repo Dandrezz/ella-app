@@ -1,0 +1,44 @@
+html{
+    background-color: #118ab2;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+button{
+    width: 80px;
+    height: 25px;
+    color: #fff;
+    background-color: #06d6a0;
+    border-color: #06d6a0;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+button:hover{
+    background-color: #048A81;
+    border-color: #048A81;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+}
+
+.box{
+    align-self: center;
+}
+
+#movil{
+    display: none;
+    position: absolute;
+}
+
+.container{
+    margin-top: 10rem;
+}
